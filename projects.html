@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka Dabas | Projects</title>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/projects.css">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">Anushka Dabas<span class="accent">.</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="index.html#resume">Resume</a></li>
+                <li><a href="projects.html" class="active">Projects</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Projects Header -->
+    <header class="projects-header">
+        <div class="container">
+            <h1>My Projects</h1>
+           
+            
+            <!-- Project Filters -->
+            <div class="project-filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <!-- <button class="filter-btn" data-filter="machine-learning">Machine Learning</button> -->
+                <button class="filter-btn" data-filter="data-analysis">Data analysis</button>
+                <button class="filter-btn" data-filter="data-science">Data Science</button>
+                <button class="filter-btn" data-filter="ai-ml">AI and ML</button>
+                <button class="filter-btn" data-filter="development">Development</button>
+              
+                <!-- <button class="filter-btn" data-filter="deep-learning">Deep Learning</button> -->
+            </div>
+        </div>
+    </header>
+
+    <!-- Projects Grid -->
+    <section class="projects-section">
+        <div class="container">
+            <div class="projects-grid">
+
+
+
+                <!-- Project Card 1 -->
+                <div class="project-card" data-category="data-analysis">
+                    <div class="project-image">
+                        <img src="assets/projects/location.png" alt="User Engagement analysis">
+                    </div>
+                    <div class="project-content">
+                        <span>July 2025</span>
+                        <h3>Yelp User-Engagement analysis</h3>
+                        <p>Developed an interactive Streamlit analytics platform using the Yelp dataset to evaluate engagement dynamics and ratings across 35,000+ open restaurants.</p>
+
+                        <ul>
+                            <li>Structured raw JSON logs into <b>SQLite</b>, running SQL queries to reveal key engagement correlations (r = 0.75) and peak activity windows (4 PM–1 AM) via <b>NLTK VADER</b> sentiment analysis.</li>
+                            <li>Engineered interactive <b>Plotly</b> geospatial and time-series maps, uncovering that <b>4.6% of elite users drive ~44% of total reviews</b>.</li>
+                        </ul>  
+                            <li>
+                                <a style="color: white" href="https://www.kaggle.com/datasets/yelp-dataset/yelp-dataset"> View Data source</a>
+                            </li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Plotly</span>
+                            <span class="tech-tag">NLTK (VADER)</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/User-Engagement-analysis" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://user-engagement-analysiss.streamlit.app/" target="_blank" class="btn btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Output
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="project-card" data-category="data-science">
+                    <div class="project-image">
+                        <img src="assets/projects/roas.png" alt="roas">
+                    </div>
+                    <div class="project-content">
+                        <span>August 2025</span>
+                        <h3>Comparative Marketing Campaign Analysis</h3>
+                         
+                        <p>Built an interactive multi-page Streamlit analytics platform to evaluate advertising ROI and campaign metrics across a 365-day dataset comparing Facebook Ads and Google AdWords.</p>
+
+                        <ul>
+                           <li>Executed statistical testing (<b>SciPy</b>/<b>Statsmodels</b>) and linear regression (<b>Scikit-Learn</b>, R^2 = 76.35%), proving Facebook's higher daily conversion rate (<b>11.74 vs 5.98</b>) and ROAS (<b>1528.27% vs 475.67%</b>).</li>
+                           <li>Automated time-series data wrangling in <b>Pandas</b> and <b>Seaborn</b> to identify seasonal CPC patterns, surfacing cost-effective budget allocation windows in May and November.</li>
+                        </ul>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                            <span class="tech-tag">SciPy</span>
+                            <span class="tech-tag">Statsmodels</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Seaborn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/Comparative-Marketing-Campaign-Analysis-Facebook-vs-AdWords" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://comparative-marketing-campaign-analysis-facebook-vs-adwords-ns.streamlit.app/" target="_blank" class="btn btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Output
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+                <div class="project-card" data-category="data-analysis">
+                    <div class="project-image">
+                        <img src="assets/projects/credit_card_transaction.png" alt="Credit Card dashboard">
+                    </div>
+                    <div class="project-content">
+                        <span>August 2025</span>
+                        <h3>Credit Card Financial Dashboard</h3>
+                        <p>Engineered an end-to-end financial dashboard in Power BI connected to PostgreSQL, analyzing $57M+ in total revenue and 667K+ transactions for real-time portfolio insights.</p>
+
+                        <ul>
+                           <li>Developed dynamic <b>DAX</b> measures and <b>SQL</b> pipelines to track WoW revenue trends and segment <b>10K+ customer profiles</b> across top states (TX, NY, CA).</li>
+                           <li>Automated weekly reporting workflows via live database connections to interactive Power BI visuals, enabling dynamic filtering by income bracket and card tier.</li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">PowerBI</span>
+                            <span class="tech-tag">DAX</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/Credit_Card_Financial_Dashboard" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://github.com/Anushka-dabas/Credit_Card_Financial_Dashboard/blob/main/Credit%20Card%20Report%20final.pdf" target="_blank" class="btn btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Output
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                
+
+
+
+                <div class="project-card" data-category="ai-ml">
+                    <div class="project-image">
+                        <img src="assets/projects/marked.png" alt="crop-yield-analysis">
+                    </div>
+                    <div class="project-content">
+                        <span> May 2026 </span>
+                        <h3>AI- Attendance System</h3>
+                        <p>Designed and deployed a framework-free, responsive product showcase platform for the Marked AI ecosystem using Flask and custom HTML5/CSS3.</p>
+
+                        <ul>
+                            <li>Implemented zero-dependency scroll animations via native <b>JavaScript IntersectionObserver API</b> and built a scalable CSS system with <b>:root variables</b> across 4 custom breakpoints.</li>
+                            <li>Configured <b>Gunicorn</b> and <b>Vercel serverless</b> deployment pipelines with static asset optimization to deliver a low-latency marketing site.</li>
+                        </ul>
+                            <li>
+                                <a style="color: white" href="https://marked-landing-page-theta.vercel.app/"> Landing Page</a>
+                            </li>
+                        </ul>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">OpenCV</span>
+                            <span class="tech-tag">face_recognition</span>
+                            <span class="tech-tag">dlib</span>
+                            <span class="tech-tag">Librosa</span>
+                            <span class="tech-tag">Supabase (PostgreSQL)</span>
+                            <span class="tech-tag">Streamlit</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/Marked-AI-attendance- " target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://marked-main.streamlit.app/" target="_blank" class="btn btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Output
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="project-card" data-category="development">
+                    <div class="project-image">
+                        <img src="assets/projects/Landingpg.png" alt="washington-house-sales">
+                    </div>
+                    <div class="project-content">
+                        <span>May 2026</span>
+                        <h3>AI- Attendance Landing Page</h3>
+                        <p>Engineered a full-stack automated attendance platform in Streamlit to process classroom photos and identify student facial embeddings in under 1 second.</p>
+
+                        <ul>
+                           <li>Developed dual CV and audio ML pipelines (<b>dlib</b>/<b>face_recognition</b>, <b>Librosa</b>/<b>webrtcvad</b>) for multi-student facial detection and acoustic voice verification fallbacks.</li>
+                           <li>Architected a real-time <b>Supabase (PostgreSQL)</b> data layer with <b>bcrypt</b> auth to log timestamped attendance, passwordless Face ID logins, and role-based analytics.</li>
+                        </ul>
+                                                
+
+
+                        <div class="project-tech">
+                           <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">Semantic HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">Vanilla JavaScript</span>
+                            <span class="tech-tag">Gunicorn</span>
+                            <span class="tech-tag">Vercel</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/Marked---Landing-page " target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://marked-landing-page-theta.vercel.app/" target="_blank" class="btn btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Output
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+
+
+
+                <div class="project-card" data-category="development">
+                    <div class="project-image">
+                        <img src="assets/projects/Trek.png" alt="Trekking Management System">
+                    </div>
+                    <div class="project-content">
+                        <span>July 2026</span>
+                        <h3>Trekking Management System</h3>
+                        
+                         <p>Architected an end-to-end web application in Flask and SQLAlchemy to automate trek scheduling, user bookings, and staff management across 3 distinct user roles (Admin, Staff, Trekker).</p>
+
+                        <ul>
+                            <li>Engineered <b>RBAC authentication</b> with password hashing and administrative approval workflows for staff onboarding, maintaining secure role-based access.</li>
+                            <li>Implemented transactional booking logic with backend validation in <b>SQLite</b> to eliminate overbooking risks, enforce status constraints, and enable admin user-blacklisting.</li>
+                        </ul>
+
+                        <div class="project-tech">
+                            <span class="tech-tag">Flask</span>
+                            <span class="tech-tag">SQLAlchemy</span>
+                            <span class="tech-tag">SQLite</span>
+                            <span class="tech-tag">Jinja2</span>
+                            <span class="tech-tag">Bootstrap 5</span>
+                            <span class="tech-tag">Werkzeug</span>
+                            
+                             
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/Trekking-management-app" target="_blank" class="btn btn-sm">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href=" " target="_blank" class="btn btn-sm">
+                                <i class="fas fa-external-link-alt"></i> Output
+                            </a>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Add more project cards with different data-category values -->
+                
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>© 2026 Anushka Dabas <p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href= " https://github.com/Anushka-dabas"  target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/anushka-dabas/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/projects.js"></script>
+</body>
+</html>

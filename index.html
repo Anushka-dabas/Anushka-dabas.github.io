@@ -1,0 +1,398 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Anushka | Portfolio</title>
+    <link rel="icon" type="image/x-icon" href="assets/images/Anushka.png">
+    
+    <!-- Particle.js -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    
+    <!-- Chart.js -->
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Google Fonts -->
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- Your CSS -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <!-- Add these in your head section -->
+<script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <a href="#" class="logo">Anushka Dabas<span class="accent">.</span></a>
+            <div class="hamburger-menu">
+                <div class="bar"></div>
+                <div class="bar"></div>
+                <div class="bar"></div>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home" class="active">Home</a></li>
+                <li><a href="#resume">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="achievements.html">Achievements</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <div class="menu-btn">
+                <span></span>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+
+    <section id="home" class="hero">
+        <div id="particles-js"></div>
+        <div class="container">
+            <div class="hero-content">
+                <div class="profile-image">
+                    <img src="assets/images/Anushka.png" alt="Anushka">
+                    <div class="data-dots">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="hero-text">
+                    <h1>Hi, I'm <span class="accent">Anushka Dabas</span></h1>
+                    <h2>Data Science and Machine Learning Enthusiast</h2>
+                    <p>Transforming <span class="highlight">data</span> into actionable insights</p>
+                </div>
+                <div class="hero-buttons">
+                    <a href="#resume" class="btn btn-primary">
+                        <i class="fas fa-file-alt"></i> View Resume
+                    </a>
+                    <a href="assets/Jai Verma Resume.pdf" class="btn btn-secondary" download>
+                        <i class="fas fa-download"></i> Download Resume
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Resume Section -->
+    <section id="resume" class="section resume-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Resume</h2>
+                <div class="data-line"></div>
+            </div>
+
+            <div class="resume-grid">
+                <!-- About Card -->
+                <div class="data-card about-card">
+                    <div class="card-header">
+                        <i class="fas fa-user"></i>
+                        <h3>About Me</h3>
+                    </div>
+                    <p>Data science student and science graduate with expertise in data analysis, visualization, and machine learning. Passionate about solving real-world problems through data-driven insights and analytical solutions.</p>
+                    
+                    <div class="card-header">
+                        <i class="fas fa-graduation-cap" style="margin-top: 20px;"></i>
+                        <h3 style="margin-top: 20px;">Education</h3>
+                    </div>
+                    <div class="timeline">
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                               <h4>BS in Data Science and Applications</h4>
+                               <p class="institution">Indian Institute of Technology Madras</p>
+                               <p class="date">2023 - Expected 2027</p>
+                            </div>
+                        </div>
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Bachelor's in Life Sciences</h4>
+                                <p class="institution">Ramjas College (University of Delhi)</p>
+                                <p class="date">2022 - 2025</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+               
+
+
+                <!-- Experience Card -->
+                <div class="data-card experience-card">
+                    <div class="card-header">
+                        <i class="fas fa-briefcase"></i>
+                        <h3>Experience</h3>
+                    </div>
+                    <div class="timeline">
+
+                        <!-- Soul AI (Deccan AI) -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>LLM Evaluator & Trainer</h4>
+                                <p class="company">Soul AI (Deccan AI)</p>
+                                <p class="date" style="margin-top: 10px; margin-bottom: 10px;"><strong>November 2025 - Present</strong></p>
+                                <ul class="experience-list">
+                                    <li>Evaluated and debugged 120+ AI-generated code outputs and conversation threads (Python & SQL) across technical frameworks (Project Maitrix), assessing query accuracy, logic, and execution correctness to improve model reliability.</li>
+                                    <li>Tested Python tool implementations in Google Colab environments, identifying runtime errors, logical flaws, incorrect parameters, and hardcoded variables to optimize code functionality prior to model deployment.</li>
+                                    <li>Validated function-calling schemas and parameter descriptions against execution code, auditing argument types and eliminating redundant tools to ensure data pipeline integrity for LLM agents.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Priti Edusources -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>IELTS Foundation Trainer</h4>
+                                <p class="company">Priti Edusources</p>
+                                <p class="date" style="margin-top: 10px; margin-bottom: 10px;"><strong>September 2023 - December 2024</strong></p>
+                                <ul class="experience-list">
+                                    <li>Trained and mentored 30+ candidates in structured verbal and written communication techniques, evaluating performance metrics to provide actionable feedback.</li>
+                                </ul>
+                            </div>
+                        </div>
+
+                        <!-- Arya Book Depot -->
+                        <div class="timeline-item">
+                            <div class="timeline-dot"></div>
+                            <div class="timeline-content">
+                                <h4>Assistant Content Developer</h4>
+                                <p class="company">Arya Book Depot</p>
+                                <p class="date" style="margin-top: 10px; margin-bottom: 10px;"><strong>August 2023 - October 2023</strong></p>
+                                <ul class="experience-list">
+                                    
+                                    <li>Researched and structured academic learning materials for educational publications, ensuring technical accuracy, clear pedagogical flow, and alignment with curricular standards.</li>
+                                    <li>Analyzed complex subject-matter sources and audited existing manuscripts to draft high-quality problem sets, textbook modules, and verified learning content.</li>
+
+
+                                </ul>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+                
+
+                <!-- Technical Skills Card -->
+                <div class="data-card skills-card">
+                    <div class="card-header">
+                        <i class="fas fa-code"></i>
+                        <h3>Technical Skills</h3>
+                    </div>
+                    
+                    <div class="skills-grid">
+
+                       <!-- Programming Languages -->
+                        <div class="skills-category">
+                            <h4><i class="fas fa-code"></i> Programming Languages</h4>
+                            <div class="skills-list">
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">SQL (PostgreSQL, SQLite)</span>
+                                <span class="skill-tag">HTML5</span>
+                                <span class="skill-tag">CSS</span>
+                                <span class="skill-tag">Flask</span>
+                            </div>
+                        </div>
+
+                        <!-- Data Analysis & ML Libraries -->
+                        <div class="skills-category">
+                            <h4><i class="fas fa-brain"></i> Data Analysis & ML Libraries</h4>
+                            <div class="skills-list">
+                                <span class="skill-tag">Pandas</span>
+                                <span class="skill-tag">NumPy</span>
+                                <span class="skill-tag">SciPy</span>
+                                <span class="skill-tag">Scikit-Learn</span>
+                                <span class="skill-tag">Statsmodels</span>
+                                <span class="skill-tag">NLTK (VADER)</span>
+                            </div>
+                        </div>
+
+                        <!-- Data Visualization -->
+                        <div class="skills-category">
+                            <h4><i class="fas fa-chart-bar"></i> Data Visualization</h4>
+                            <div class="skills-list">
+                                <span class="skill-tag">Power BI</span>
+                                <span class="skill-tag">DAX</span>
+                                <span class="skill-tag">Plotly</span>
+                                <span class="skill-tag">Seaborn</span>
+                                <span class="skill-tag">Matplotlib</span>
+                            </div>
+                        </div>
+
+                        <!-- Tools & Analytical Methods -->
+                        <div class="skills-category">
+                            <h4><i class="fas fa-tools"></i> Tools & Analytical Methods</h4>
+                            <div class="skills-list">
+                                <span class="skill-tag">Streamlit</span>
+                                <span class="skill-tag">Git</span>
+                                <span class="skill-tag">GitHub</span>
+                                <span class="skill-tag">VS Code</span>
+                                <span class="skill-tag">Google Colab</span>
+                                <span class="skill-tag">Hypothesis Testing</span>
+                            </div>
+                        </div> 
+
+                    </div>
+                </div>
+
+             
+            </div>
+        </div>
+    </section>
+    
+    <!-- Featured Projects Section -->
+    <section id="projects" class="section projects-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Featured Projects</h2>
+                <div class="data-line"></div>
+            </div>
+
+            <div class="projects-grid">
+                <!-- Project Card 1 -->
+                <div class="project-card data-card">
+                    <div class="project-image">
+                        <img src="assets/projects/roas.png" alt="Project 1">
+                        <div class="project-overlay">
+                            <div class="project-preview">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Comparative Marketing Campaign Analysis</h3>
+                        <p>Built an interactive multi-page Streamlit analytics platform to evaluate advertising ROI and campaign metrics across a 365-day dataset comparing Facebook Ads and Google AdWords.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">Python</span>
+                            <span class="tech-tag">Streamlit</span>
+                            <span class="tech-tag">Scikit-Learn</span>
+                            <span class="tech-tag">SciPy</span>
+                            <span class="tech-tag">Statsmodels</span>
+                            <span class="tech-tag">Pandas</span>
+                            <span class="tech-tag">Seaborn</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/Comparative-Marketing-Campaign-Analysis-Facebook-vs-AdWords" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://comparative-marketing-campaign-analysis-facebook-vs-adwords-ns.streamlit.app/" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Live Demo
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <div class="project-card data-card">
+                    <div class="project-image">
+                        <img src="assets/projects/Credit_Card_Transaction.png" alt="dashboard">
+                        <div class="project-overlay">
+                            <div class="project-preview">
+                                <i class="fas fa-external-link-alt"></i>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-content">
+                        <h3>Credit Card Financial Dashboard</h3>
+                        <p>Engineered an end-to-end financial dashboard in Power BI connected to PostgreSQL, analyzing $57M+ in total revenue and 667K+ transactions for real-time portfolio insights.</p>
+                        <div class="project-tech">
+                            <span class="tech-tag">PostgreSQL</span>
+                            <span class="tech-tag">PowerBI</span>
+                            <span class="tech-tag">DAX</span>
+                            <span class="tech-tag">SQL</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="https://github.com/Anushka-dabas/Credit-Card-Financial-Dashboard" class="project-link" target="_blank">
+                                <i class="fab fa-github"></i> Code
+                            </a>
+                            <a href="https://github.com/Anushka-dabas/Credit_Card_Financial_Dashboard/blob/main/Credit%20Card%20Report%20final.pdf" class="project-link" target="_blank">
+                                <i class="fas fa-external-link-alt"></i> Bi Report
+                            </a>
+                        </div>
+                    </div>
+                </div>
+                <!-- Add more project cards as needed -->
+            </div>
+
+            <div class="center-btn">
+                <a href="projects.html" class="btn btn-primary">
+                    View All Projects <i class="fas fa-arrow-right"></i>
+                </a>
+            </div>
+        </div>
+    </section>
+
+    
+
+    <!-- Contact Section -->
+    <section id="contact" class="section contact-section">
+        <div class="container">
+            <div class="section-header">
+                <h2>Get In Touch</h2>
+                <div class="data-line"></div>
+            </div>
+
+            <div class="contact-content">
+                <div class="contact-text">
+                    <p>Feel free to reach out to me at the links below</p>
+                </div>
+                
+                <div class="contact-methods">
+                    <a href="mailto:anushhkadabas@gmail.com" class="contact-method">
+                        <i class="fas fa-envelope"></i>
+                        <span>anushhkadabas@gmail.com</span>
+                    </a>
+                    <a href="https://www.linkedin.com/in/anushka-dabas/" class="contact-method" target="_blank">
+                        <i class="fab fa-linkedin"></i>
+                        <span>Linkedin (Anushka Dabas)</span>
+                    </a>
+                    <a href="https://github.com/Anushka-dabas" class="contact-method" target="_blank">
+                        <i class="fab fa-github"></i>
+                        <span>GitHub (Anushka-dabas)</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-left">
+                    <p>© 2026 Anushka Dabas</p>
+                </div>
+                <div class="footer-right">
+                    <div class="social-links">
+                        <a href=" https://github.com/Anushka-dabas" target="_blank">
+                            <i class="fab fa-github"></i>
+                        </a>
+                        <a href="https://www.linkedin.com/in/anushka-dabas/" target="_blank">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/main.js"></script>
+    <script src="js/particle.js"></script>
+
+    <button id="scrollToTop" class="sc
+    
+    
+    roll-top">
+        <i class="fas fa-arrow-up"></i>
+    </button>
+    
+</body>
+</html>
